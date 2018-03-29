@@ -33,7 +33,7 @@
 }
 
 - (void)updateCellIndex:(NSIndexPath *)indexPath{
-    self.cellLabel.text = [NSString stringWithFormat:@"%d",indexPath.row];
+    self.cellLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
 }
 
 @end
